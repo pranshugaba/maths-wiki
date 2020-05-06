@@ -1,4 +1,4 @@
 [submodule "site"]
 	path = site
-	url = https://github.com/pranshugaba/my-books.git
+	url = git@github.com:pranshugaba/my-books.git
 	branch = master
