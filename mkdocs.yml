@@ -1,2 +1,76 @@
-site_name: Books
-theme: readthedocs
+site_name: Books by Pranshu
+site_url: https://books.pranshugaba.com/
+site_author: Pranshu Gaba
+
+copyright: Copyright &copy; 2020 Pranshu Gaba
+theme: 
+  name: material 
+  language: en
+
+  features:
+    - tabs
+
+  static_templates:
+    - 404.html
+
+
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+  - awesome-pages
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pranshugaba
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/pranshugaba
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/pranshugaba/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/pranshu_gaba/
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+nav:
+  - Home: 'index.md'
+  - 'Combinatorics':
+      - 'Chapter 1': 'combinatorics/1-Introduction.md'
+  - 'Graph Theory':
+      - 'Part 1':
+        - 'Chapter 1': 'gt1.md'
+  - About:
+      - 'License': 'license.md'
+      - 'Release Notes': 'release-notes.md'
