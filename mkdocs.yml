@@ -50,7 +50,7 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized:
-      type: date
+      type: timeago
   - awesome-pages
 
 # Customization
