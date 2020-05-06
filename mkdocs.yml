@@ -81,7 +81,7 @@ nav:
   - 'Algebra':
       - 'What is algebra?': 'algebra/introduction.md'
   - 'Complex Analysis':
-      - 'What is algebra?': 'algebra/introduction.md'
+      - 'What is algebra?': 'complex-analysis/introduction.md'
   - 'Topology':
       - 'What is topology?': 'topology/introduction.md'
   - About:
