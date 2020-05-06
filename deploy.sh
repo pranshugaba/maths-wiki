@@ -9,9 +9,8 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 mkdocs build
 
 # Go To site folder
-cd site
-touch CNAME
-echo "books.pranshugaba.com" >> CNAME
+touch site/CNAME
+echo "books.pranshugaba.com" >> site/CNAME
 
 # Add changes to git.
 git add .
