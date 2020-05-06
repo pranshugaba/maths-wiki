@@ -1,4 +1,4 @@
-site_name: Books by Pranshu
+site_name: Books
 site_url: https://books.pranshugaba.com/
 site_author: Pranshu Gaba
 
@@ -6,6 +6,10 @@ copyright: Copyright &copy; 2020 Pranshu Gaba
 theme: 
   name: material 
   language: en
+
+  palette:
+    primary: teal
+    accent: teal
 
   features:
     - tabs
@@ -67,10 +71,19 @@ extra_javascript:
 nav:
   - Home: 'index.md'
   - 'Combinatorics':
-      - 'Chapter 1': 'combinatorics/1-Introduction.md'
+      - 'How to count?': 'combinatorics/introduction.md'
+      - 'Pigeon Hole Principle': 'combinatorics/pigeon-hole-principle.md'
+      - 'Rule of Sum': 'combinatorics/rule-of-sum.md'
+      - 'Rule of Product': 'combinatorics/rule-of-product.md'
+      - 'Binomial theorem': 'combinatorics/binomial-theorem.md'
   - 'Graph Theory':
-      - 'Part 1':
-        - 'Chapter 1': 'gt1.md'
+      - 'What is a graph?': 'graph-theory/what-is-a-graph.md'
+  - 'Algebra':
+      - 'What is algebra?': 'algebra/introduction.md'
+  - 'Complex Analysis':
+      - 'What is algebra?': 'algebra/introduction.md'
+  - 'Topology':
+      - 'What is topology?': 'topology/introduction.md'
   - About:
-      - 'License': 'license.md'
-      - 'Release Notes': 'release-notes.md'
+      - 'License': 'about/license.md'
+      - 'Release Notes': 'about/release-notes.md'

@@ -10,6 +10,8 @@ mkdocs build
 
 # Go To site folder
 cd site
+touch CNAME
+echo "books.pranshugaba.com" >> CNAME
 
 # Add changes to git.
 git add .
