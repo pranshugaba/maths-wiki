@@ -4,7 +4,8 @@ site_author: Pranshu Gaba
 
 google_analytics: ['UA-164642577-2', 'books.pranshugaba.com']
 
-copyright: Copyright &copy; 2020 Pranshu Gaba
+copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
+
 theme: 
   name: material 
   language: en
@@ -18,8 +19,6 @@ theme:
 
   static_templates:
     - 404.html
-
-
 
 markdown_extensions:
   - pymdownx.arithmatex
@@ -81,6 +80,7 @@ extra:
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
 
 # nav:
 #   - Home: 'index.md'
