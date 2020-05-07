@@ -52,6 +52,10 @@ plugins:
   - git-revision-date-localized:
       type: timeago
   - awesome-pages
+  # - enumerate-headings:
+  #     strict: false
+  # - add-number:
+  #     strict_mode: False
 
 # Customization
 extra:
@@ -64,6 +68,7 @@ extra:
       link: https://linkedin.com/in/pranshugaba/
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/pranshu_gaba/
+
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML

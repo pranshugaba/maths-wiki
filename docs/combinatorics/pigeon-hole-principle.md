@@ -1,6 +1,6 @@
-This is a markdown file.
-Combinatorics is very important.
+# Pigeon Hole Principle
 
+Counting is fun!
 ## Section 1
 
 ## Section 2
