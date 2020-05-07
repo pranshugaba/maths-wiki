@@ -1,2 +1,2 @@
 # Counting
-Combinatorics is about how to count. 
+Combinatorics is about how to count.

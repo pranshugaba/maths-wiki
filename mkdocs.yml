@@ -8,8 +8,8 @@ theme:
   language: en
 
   palette:
-    primary: teal
-    accent: teal
+    primary: blue
+    accent: indigo
 
   features:
     - tabs
