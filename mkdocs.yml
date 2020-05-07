@@ -2,6 +2,8 @@ site_name: Maths Wiki
 site_url: https://books.pranshugaba.com/
 site_author: Pranshu Gaba
 
+google_analytics: ['UA-164642577-2', 'books.pranshugaba.com']
+
 copyright: Copyright &copy; 2020 Pranshu Gaba
 theme: 
   name: material 
