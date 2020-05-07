@@ -1,0 +1,7 @@
+title: Home
+
+arrange:
+  - index.md
+  - ...
+  - glossary
+  - about

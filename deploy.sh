@@ -8,6 +8,8 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Build the project.
 mkdocs build
 
+echo "books.pranshugaba.com" >> site/CNAME
+
 # Go To site folder
 cd site
 

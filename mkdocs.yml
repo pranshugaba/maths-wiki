@@ -1,4 +1,4 @@
-site_name: Books
+site_name: Maths Wiki
 site_url: https://books.pranshugaba.com/
 site_author: Pranshu Gaba
 
@@ -51,7 +51,12 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: timeago
-  - awesome-pages
+  - awesome-pages:
+      filename: .index
+      collapse_single_pages: false
+      strict: true
+  # - tooltipster-links
+  # - mk2pdf-export
   # - enumerate-headings:
   #     strict: false
   # - add-number:
@@ -73,22 +78,24 @@ extra:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
 
-nav:
-  - Home: 'index.md'
-  - 'Complex Analysis':
-      - 'What is complex analysis?': 'complex-analysis/introduction.md'
-  - 'Combinatorics':
-      - 'How to count?': 'combinatorics/introduction.md'
-      - 'Pigeon Hole Principle': 'combinatorics/pigeon-hole-principle.md'
-      - 'Rule of Sum': 'combinatorics/rule-of-sum.md'
-      - 'Rule of Product': 'combinatorics/rule-of-product.md'
-      - 'Binomial theorem': 'combinatorics/binomial-theorem.md'
-  - 'Graph Theory':
-      - 'What is a graph?': 'graph-theory/what-is-a-graph.md'
-  - 'Algebra':
-      - 'What is algebra?': 'algebra/introduction.md'
-  - 'Topology':
-      - 'What is topology?': 'topology/introduction.md'
-  - About:
-      - 'License': 'about/license.md'
-      - 'Release Notes': 'about/release-notes.md'
+# nav:
+#   - Home: 'index.md'
+#   - 'Complex Analysis':
+#       - 'What is complex analysis?': 'complex-analysis/introduction.md'
+#   - 'Combinatorics':
+#       - 'How to count?': 'combinatorics/introduction.md'
+#       - 'Pigeon Hole Principle': 'combinatorics/pigeon-hole-principle.md'
+#       - 'Rule of Sum': 'combinatorics/rule-of-sum.md'
+#       - 'Rule of Product': 'combinatorics/rule-of-product.md'
+#       - 'Binomial theorem': 'combinatorics/binomial-theorem.md'
+#   - 'Graph Theory':
+#       - 'What is a graph?': 'graph-theory/what-is-a-graph.md'
+#   - 'Algebra':
+#       - 'What is algebra?': 'algebra/introduction.md'
+#   - 'Topology':
+#       - 'What is topology?': 'topology/introduction.md'
+#   - 'Glossary':
+#       - 'Field': 'glossary/field.md'
+#   - About:
+#       - 'License': 'about/license.md'
+#       - 'Release Notes': 'about/release-notes.md'

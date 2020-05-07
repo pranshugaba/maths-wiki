@@ -1,0 +1,8 @@
+title: Combinatorics
+
+arrange:
+  - introduction.md
+  - pigeon-hole-principle.md
+  - rule-of-sum.md
+  - rule-of-product.md
+  - binomial-theorem.md
