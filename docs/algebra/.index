@@ -1,3 +1,5 @@
+hide: true
+
 arrange:
   - introduction.md
   - groups.md

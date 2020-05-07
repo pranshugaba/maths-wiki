@@ -57,12 +57,14 @@ plugins:
       filename: .index
       collapse_single_pages: false
       strict: true
+  # - toc-sidebar
   # - tooltipster-links
   # - mk2pdf-export
   # - enumerate-headings:
-  #     strict: false
+  #     strict: true
   # - add-number:
   #     strict_mode: False
+  #     order: 1
 
 # Customization
 extra:
