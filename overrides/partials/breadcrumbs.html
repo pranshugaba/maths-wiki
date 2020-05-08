@@ -1,5 +1,5 @@
 <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs" style="font-size: .7rem;text-overflow: ellipsis; display: inline-flex; list-style: none;padding-right: 1em;">
+  <ul class="wy-breadcrumbs" style="font-size: .7rem; max-width: 50vw;text-overflow: ellipsis; display: inline-flex; list-style: none;">
     <!-- <li><a href="{{ nav.homepage.url|url }}">Wiki</a> /&nbsp;</li> -->
     {% if page %}
       {% for doc in page.ancestors|reverse %}
@@ -10,7 +10,7 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-    {% if page %}<li style="font-weight: 700;">{{ page.title }}</li>{% endif %}
+    <!-- {% if page %}<li style="font-weight: 700;">{{ page.title }}</li>{% endif %} -->
     <li class="wy-breadcrumbs-aside">
       {%- block repo %}
       {% if page and page.edit_url %}
