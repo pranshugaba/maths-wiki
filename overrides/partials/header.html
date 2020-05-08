@@ -17,7 +17,9 @@
       {% else %}
         <div class="md-header-nav__ellipsis">
           <span class="md-header-nav__topic md-ellipsis">
+    <a href="{{ config.site_url | default(nav.homepage.url, true) | url }}" title="{{ config.site_name }}" aria-label="{{ config.site_name }}">
             {{ config.site_name }}
+    </a>
           </span>
           <span class="md-header-nav__topic md-ellipsis">
               <ul style="text-overflow: ellipsis; display: inline-flex; list-style: none;margin: 0 0;padding: 0 0;">
@@ -27,7 +29,7 @@
                     {% if doc.link %}
                       <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo; </li>
                     {% else %}
-                      <li style="opacity: 0.75; overflow: hidden;">{{ doc.title }} /&nbsp;</li>
+                      <li style="opacity: 0.7; overflow: hidden;text-overflow: ellipsis;">{{ doc.title }} /&nbsp;</li>
                     {% endif %}
                   {% endfor %}
                 {% endif %}
