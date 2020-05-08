@@ -1,13 +1,13 @@
 site_name: Maths Wiki
-site_url: https://wiki.pranshugaba.com
+site_url: https://maths.wiki
 site_author: Pranshu Gaba
 site_description: >-
   Notes by Pranshu Gaba on topics in maths.
 
 # Repository
-# repo_name: pranshugaba/maths-wiki-src
-# repo_url: https://github.com/pranshugaba/maths-wiki-src
-# edit_uri: ""
+repo_name: pranshugaba/maths-wiki-src
+repo_url: https://github.com/pranshugaba/maths-wiki-src
+edit_uri: ""
 
 # Copyright
 copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
