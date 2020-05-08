@@ -7,7 +7,7 @@ site_description: >-
 # Repository
 repo_name: pranshugaba/maths-wiki-src
 repo_url: https://github.com/pranshugaba/maths-wiki-src
-edit_uri: ""
+# edit_uri: ""
 
 # Copyright
 copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
@@ -31,8 +31,8 @@ theme:
     - tabs
     #- instant
   palette:
-    primary: blue
-    accent: indigo
+    primary: indigo
+    accent: pink
   font:
     text: Roboto
     code: Roboto Mono
