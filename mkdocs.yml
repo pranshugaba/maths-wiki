@@ -5,17 +5,17 @@ site_description: >-
   Notes by Pranshu Gaba on topics in maths.
 
 # Repository
-repo_name: pranshugaba/my-books
-repo_url: https://github.com/pranshugaba/my-books
-edit_uri: ""
+# repo_name: pranshugaba/my-books
+# repo_url: https://github.com/pranshugaba/my-books
+# edit_uri: ""
 
 # Copyright
 copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
 
 # Configuration
 theme:
-  name: null
-  custom_dir: mkdocs-material/material
+  name: material
+  custom_dir: overrides
 
   # 404 page
   static_templates:
@@ -139,6 +139,14 @@ markdown_extensions:
 # google_analytics:
 #   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
 #   - auto  
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+# extra_javascript:
+#   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js
+# extra_css:
+#   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css 
 
-google_analytics: ['UA-164642577-2', 'books.pranshugaba.com']
+google_analytics:
+  - 'UA-164642577-2'
+  - auto
 
