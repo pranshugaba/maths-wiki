@@ -1,12 +1,12 @@
 site_name: Maths Wiki
-site_url: https://books.pranshugaba.com
+site_url: https://wiki.pranshugaba.com
 site_author: Pranshu Gaba
 site_description: >-
   Notes by Pranshu Gaba on topics in maths.
 
 # Repository
-# repo_name: pranshugaba/my-books
-# repo_url: https://github.com/pranshugaba/my-books
+repo_name: pranshugaba/maths-wiki-src
+repo_url: https://github.com/pranshugaba/maths-wiki-src
 # edit_uri: ""
 
 # Copyright
@@ -110,35 +110,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Page tree
-# nav:
-#   - Home: index.md
-#   - Getting started: getting-started.md
-#   - Extensions:
-#     - Admonition: extensions/admonition.md
-#     - CodeHilite: extensions/codehilite.md
-#     - Footnotes: extensions/footnotes.md
-#     - Metadata: extensions/metadata.md
-#     - Permalinks: extensions/permalinks.md
-#     - PyMdown: extensions/pymdown.md
-#   - Plugins:
-#     - Search: plugins/search.md
-#     - Minification: plugins/minification.md
-#     - Revision date: plugins/revision-date.md
-#     - Awesome pages: plugins/awesome-pages.md
-#   - Releases:
-#     - Upgrading to 5.x: releases/5.md
-#     - Upgrading to 4.x: releases/4.md
-#     - Changelog: releases/changelog.md
-#   - Customization: customization.md
-#   - Data privacy: data-privacy.md
-#   - Contributing: contributing.md
-#   - License: license.md
-
-# Google Analytics
-# google_analytics:
-#   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-#   - auto  
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
 # extra_javascript:
