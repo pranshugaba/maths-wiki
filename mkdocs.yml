@@ -5,8 +5,8 @@ site_description: >-
   Notes by Pranshu Gaba on topics in maths.
 
 # Repository
-repo_name: pranshugaba/maths-wiki-src
-repo_url: https://github.com/pranshugaba/maths-wiki-src
+# repo_name: pranshugaba/maths-wiki-src
+# repo_url: https://github.com/pranshugaba/maths-wiki-src
 # edit_uri: ""
 
 # Copyright
@@ -70,7 +70,6 @@ extra:
      link: https://twitter.com/pranshugaba
    - icon: fontawesome/brands/linkedin
      link: https://linkedin.com/in/pranshugaba/
-   - icon: fontawesome/brands/instagram
 
 # Extensions
 markdown_extensions:
