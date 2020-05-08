@@ -6,12 +6,13 @@
 ## Statement
 The pigeonhole theorem[^1] is very simple to state and understand, but is very powerful.
 
+
 [^1]: Often abbreviated to PHP.
 
 !!! info "Theorem"
     If there are \(n\) holes, and \(n+1\) pigeons, and each pigeon is in some hole, then there exists a hole with at least two pigeons.
 
-!!! note "Proof"
+???+ note "Proof"
     Suppose all holes have at most one pigeon. Then there are at most \(n\) pigeons. This is a contradiction since we have \(n+1\) pigeons.
 
 ## Generalized PHP

@@ -29,7 +29,7 @@ theme:
   language: en
   features:
     - tabs
-    #- instant
+    - instant
   palette:
     primary: indigo
     accent: pink
@@ -38,19 +38,20 @@ theme:
     code: Roboto Mono
   icon:
     logo: logo
-    favicon: assets/favicon.png
+    favicon: img/favicon.ico
 
 # Plugins
 plugins:
   - search
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
   - git-revision-date-localized:
       type: date
   - awesome-pages:
       filename: .index
       collapse_single_pages: false
       strict: true
+  # - markdownmermaid
   # - toc-sidebar
   # - tooltipster-links
   # - mk2pdf-export
@@ -91,6 +92,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.extra
   # - pymdownx.highlight:
   #     linenums_style: pymdownx-inline
   - pymdownx.inlinehilite
@@ -100,7 +102,7 @@ markdown_extensions:
       user: squidfunk
       repo: mkdocs-material
   - pymdownx.mark
-  - pymdownx.smartsymbols
+  # - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
   - pymdownx.superfences
@@ -109,8 +111,14 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+  # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.0/mermaid.min.js
+
+extra_css:
+  - css/img.css
+  - css/custom.css
 # extra_javascript:
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js
 # extra_css:
