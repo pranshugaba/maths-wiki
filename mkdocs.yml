@@ -2,7 +2,7 @@ site_name: Maths Wiki
 site_url: https://maths.wiki
 site_author: Pranshu Gaba
 site_description: >-
-  Notes by Pranshu Gaba on topics in maths.
+  A collection of maths notes.
 
 # Repository
 repo_name: pranshugaba/maths-wiki-src
@@ -17,6 +17,8 @@ theme:
   name: material
   custom_dir: overrides
 
+  extra:
+    manifest: manifest.webmanifest
   # 404 page
   static_templates:
     - 404.html
@@ -38,7 +40,7 @@ theme:
     code: Roboto Mono
   icon:
     logo: logo
-    favicon: img/favicon.ico
+    favicon: ../images/favicon.ico
 
 # Plugins
 plugins:
