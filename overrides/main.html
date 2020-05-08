@@ -1,0 +1,21 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block source %}
+
+      <ul style="text-overflow: ellipsis; display: inline-flex; list-style: none;margin: -2rem 0 2rem 0;padding-bottom:0.5rem; border-bottom: 1px solid #aaaaaa;">
+        <!-- <li><a href="{{ nav.homepage.url|url }}">Wiki</a> /&nbsp;</li> -->
+        {% if page %}
+          {% for doc in page.ancestors|reverse %}
+              <li style="opacity: 0.55; margin: 0;">{{ doc.title }} /&nbsp;</li>
+          {% endfor %}
+        {% endif %}
+        {% if page %}<li style="margin: 0;">{{ page.title }}</li>{% endif %}
+      </ul>
+
+
+  {% if page and page.meta and page.meta.source %}
+    {% include "partials/source-link.html" %}
+  {% endif %}
+{% endblock %}

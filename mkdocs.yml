@@ -1,0 +1,123 @@
+site_name: Maths Wiki
+site_url: https://wiki.pranshugaba.com
+site_author: Pranshu Gaba
+site_description: >-
+  Notes by Pranshu Gaba on topics in maths.
+
+# Repository
+repo_name: pranshugaba/maths-wiki-src
+repo_url: https://github.com/pranshugaba/maths-wiki-src
+# edit_uri: ""
+
+# Copyright
+copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+    #- instant
+  palette:
+    primary: blue
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: logo
+    favicon: assets/favicon.png
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+  - awesome-pages:
+      filename: .index
+      collapse_single_pages: false
+      strict: true
+  # - toc-sidebar
+  # - tooltipster-links
+  # - mk2pdf-export
+  # - enumerate-headings:
+  #     strict: true
+  # - add-number:
+  #     strict_mode: False
+  #     order: 1
+
+
+# Customization
+extra:
+ social:
+   - icon: fontawesome/brands/github
+     link: https://github.com/pranshugaba
+   - icon: fontawesome/brands/twitter
+     link: https://twitter.com/pranshugaba
+   - icon: fontawesome/brands/linkedin
+     link: https://linkedin.com/in/pranshugaba/
+   - icon: fontawesome/brands/instagram
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+# extra_javascript:
+#   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js
+# extra_css:
+#   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css 
+
+google_analytics:
+  - 'UA-164642577-2'
+  - auto
+
