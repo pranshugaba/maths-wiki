@@ -6,11 +6,11 @@
         {% if doc.link %}
           <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo; </li>
         {% else %}
-          <li>{{ doc.title }} /&nbsp;</li>
+          <li style="opacity: 0.75; overflow: hidden;">{{ doc.title }} /&nbsp;</li>
         {% endif %}
       {% endfor %}
     {% endif %}
-    {% if page %}<li>{{ page.title }}</li>{% endif %}
+    {% if page %}<li style="font-weight: 700;">{{ page.title }}</li>{% endif %}
     <li class="wy-breadcrumbs-aside">
       {%- block repo %}
       {% if page and page.edit_url %}
