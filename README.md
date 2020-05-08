@@ -2,6 +2,6 @@
 
 My notes on Combinatorics, Complex Analysis and more! 
 
-<https://wiki.pranshugaba.com>
+<https://maths.wiki>
 
 
