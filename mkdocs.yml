@@ -1,51 +1,46 @@
 site_name: Maths Wiki
-site_url: https://books.pranshugaba.com/
+site_url: https://books.pranshugaba.com
 site_author: Pranshu Gaba
+site_description: >-
+  Notes by Pranshu Gaba on topics in maths.
 
-google_analytics: ['UA-164642577-2', 'books.pranshugaba.com']
+# Repository
+repo_name: pranshugaba/my-books
+repo_url: https://github.com/pranshugaba/my-books
+edit_uri: ""
 
+# Copyright
 copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
 
-theme: 
-  name: material 
-  language: en
+# Configuration
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
 
-  palette:
-    primary: blue
-    accent: indigo
-
-  features:
-    - tabs
-
+  # 404 page
   static_templates:
     - 404.html
 
-markdown_extensions:
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tabbed
-  - pymdownx.tilde
-  - admonition
-  - codehilite
-  - footnotes
-  - meta
-  - toc:
-      permalink: true
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
 
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+    #- instant
+  palette:
+    primary: blue
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: logo
+    favicon: assets/favicon.png
+
+# Plugins
 plugins:
   - search
   - minify:
@@ -65,41 +60,85 @@ plugins:
   #     strict_mode: False
   #     order: 1
 
+
 # Customization
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/pranshugaba
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/pranshugaba
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/pranshugaba/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/pranshu_gaba/
+ social:
+   - icon: fontawesome/brands/github
+     link: https://github.com/pranshugaba
+   - icon: fontawesome/brands/twitter
+     link: https://twitter.com/pranshugaba
+   - icon: fontawesome/brands/linkedin
+     link: https://linkedin.com/in/pranshugaba/
+   - icon: fontawesome/brands/instagram
 
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
-
-
+# Page tree
 # nav:
-#   - Home: 'index.md'
-#   - 'Complex Analysis':
-#       - 'What is complex analysis?': 'complex-analysis/introduction.md'
-#   - 'Combinatorics':
-#       - 'How to count?': 'combinatorics/introduction.md'
-#       - 'Pigeon Hole Principle': 'combinatorics/pigeon-hole-principle.md'
-#       - 'Rule of Sum': 'combinatorics/rule-of-sum.md'
-#       - 'Rule of Product': 'combinatorics/rule-of-product.md'
-#       - 'Binomial theorem': 'combinatorics/binomial-theorem.md'
-#   - 'Graph Theory':
-#       - 'What is a graph?': 'graph-theory/what-is-a-graph.md'
-#   - 'Algebra':
-#       - 'What is algebra?': 'algebra/introduction.md'
-#   - 'Topology':
-#       - 'What is topology?': 'topology/introduction.md'
-#   - 'Glossary':
-#       - 'Field': 'glossary/field.md'
-#   - About:
-#       - 'License': 'about/license.md'
-#       - 'Release Notes': 'about/release-notes.md'
+#   - Home: index.md
+#   - Getting started: getting-started.md
+#   - Extensions:
+#     - Admonition: extensions/admonition.md
+#     - CodeHilite: extensions/codehilite.md
+#     - Footnotes: extensions/footnotes.md
+#     - Metadata: extensions/metadata.md
+#     - Permalinks: extensions/permalinks.md
+#     - PyMdown: extensions/pymdown.md
+#   - Plugins:
+#     - Search: plugins/search.md
+#     - Minification: plugins/minification.md
+#     - Revision date: plugins/revision-date.md
+#     - Awesome pages: plugins/awesome-pages.md
+#   - Releases:
+#     - Upgrading to 5.x: releases/5.md
+#     - Upgrading to 4.x: releases/4.md
+#     - Changelog: releases/changelog.md
+#   - Customization: customization.md
+#   - Data privacy: data-privacy.md
+#   - Contributing: contributing.md
+#   - License: license.md
+
+# Google Analytics
+# google_analytics:
+#   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#   - auto  
+
+google_analytics: ['UA-164642577-2', 'books.pranshugaba.com']
+
