@@ -46,7 +46,7 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized:
-      type: timeago
+      type: date
   - awesome-pages:
       filename: .index
       collapse_single_pages: false
