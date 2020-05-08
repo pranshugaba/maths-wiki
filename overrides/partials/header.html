@@ -22,27 +22,27 @@
     </a>
           </span>
           <span class="md-header-nav__topic md-ellipsis">
-              <ul style="text-overflow: ellipsis; display: inline-flex; list-style: none;margin: 0 0;padding: 0 0;">
-                <!-- <li><a href="{{ nav.homepage.url|url }}">Wiki</a> /&nbsp;</li> -->
-                {% if page %}
-                  {% for doc in page.ancestors|reverse %}
-                    {% if doc.link %}
-                      <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo; </li>
-                    {% else %}
-                      <li style="opacity: 0.7; overflow: hidden;text-overflow: ellipsis;">{{ doc.title }} /&nbsp;</li>
-                    {% endif %}
-                  {% endfor %}
-                {% endif %}
-                {% if page %}<li style="font-weight: 700;">{{ page.title }}</li>{% endif %}
-              </ul>
+              <!-- <ul style="text-overflow: ellipsis; display: inline-flex; list-style: none;margin: 0 0;padding: 0 0;"> -->
+              <!--   <!-1- <li><a href="{{ nav.homepage.url|url }}">Wiki</a> /&nbsp;</li> -1-> -->
+              <!--   {% if page %} -->
+              <!--     {% for doc in page.ancestors|reverse %} -->
+              <!--       {% if doc.link %} -->
+              <!--         <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo; </li> -->
+              <!--       {% else %} -->
+              <!--         <li style="opacity: 0.7; overflow: hidden;text-overflow: ellipsis;">{{ doc.title }} /&nbsp;</li> -->
+              <!--       {% endif %} -->
+              <!--     {% endfor %} -->
+              <!--   {% endif %} -->
+              <!--   {% if page %}<li style="font-weight: 700;">{{ page.title }}</li>{% endif %} -->
+              <!-- </ul> -->
 
 
 
-            <!-- {% if page and page.meta and page.meta.title %} -->
-            <!--   {{ page.meta.title }} -->
-            <!-- {% else %} -->
-            <!--   {{ page.title }} -->
-            <!-- {% endif %} -->
+            {% if page and page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
           </span>
         </div>
       {% endif %}
