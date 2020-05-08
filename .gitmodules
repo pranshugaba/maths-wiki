@@ -1,4 +1,0 @@
-[submodule "site"]
-	path = site
-	url = git@github.com:pranshugaba/maths-wiki.git
-	branch = master
