@@ -14,11 +14,12 @@ copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommo
 
 # Configuration
 theme:
-  name: material
-  custom_dir: overrides
+  name: null
+  custom_dir: mkdocs-material/material
 
   extra:
     manifest: manifest.webmanifest
+
   # 404 page
   static_templates:
     - 404.html
