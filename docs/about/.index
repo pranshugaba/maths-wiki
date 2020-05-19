@@ -1,4 +1,5 @@
 arrange:
-  - author.md
+  - authors.md
   - contribute.md
+  - style-guide.md
   - license.md

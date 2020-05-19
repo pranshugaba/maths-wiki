@@ -4,7 +4,7 @@
 
 
 ## Statement
-The pigeonhole theorem[^1] is very simple to state and understand, but is very powerful.
+The pigeonhole theorem[^1] may seem very simple to state and understand, but is very powerful.
 
 
 [^1]: Often abbreviated to PHP.
@@ -27,4 +27,4 @@ The proof is left as an exercise to the reader.
 
 
 !!! question
-    Nine numbers are selected from the set \(\{1, 2, \ldots , 100 \}\). Prove that there exist two numbers whose difference is greater than 11.
+    Nine numbers are selected from the set \(\{1, 2, \ldots , 100 \}\). Prove that there exist two numbers whose difference is less than 11.
