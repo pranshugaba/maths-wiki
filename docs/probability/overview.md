@@ -2,4 +2,12 @@
 title: Probability Overview
 ---
 
-If a fair coin is flipped 100 times, what is the expected number of heads?
+In this section, we plan to cover the following topics:
+
+- Probability Spaces
+- Independence
+- Conditional Probability
+- Random Variables
+- Expected Values
+- Markov Chains
+
