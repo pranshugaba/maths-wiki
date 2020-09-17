@@ -2,3 +2,6 @@
 	path = site
 	url = git@github.com:pranshugaba/maths-wiki.git
 	branch = master
+[submodule "mkdocs-material"]
+	path = mkdocs-material
+	url = git@github.com:pranshugaba/mkdocs-material.git
