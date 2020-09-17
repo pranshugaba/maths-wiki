@@ -10,7 +10,7 @@ site_description: >-
 # edit_uri: ""
 
 # Copyright
-copyright: '&copy; 2020 Pranshu Gaba <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
+copyright: '&copy; 2020 Maths Wiki <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
 
 # Configuration
 theme:
@@ -69,11 +69,9 @@ plugins:
 extra:
  social:
    - icon: fontawesome/brands/github
-     link: https://github.com/pranshugaba
-   - icon: fontawesome/brands/twitter
-     link: https://twitter.com/pranshugaba
-   - icon: fontawesome/brands/linkedin
-     link: https://linkedin.com/in/pranshugaba/
+     link: https://github.com/pranshugaba/maths-wiki-src
+   # - icon: fontawesome/brands/twitter
+   #   link: https://twitter.com/mathswiki
 
 # Extensions
 markdown_extensions:
