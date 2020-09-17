@@ -70,8 +70,8 @@ extra:
  social:
    - icon: fontawesome/brands/github
      link: https://github.com/pranshugaba/maths-wiki-src
-   # - icon: fontawesome/brands/twitter
-   #   link: https://twitter.com/mathswiki
+   - icon: fontawesome/brands/twitter
+     link: https://twitter.com/mathswiki
 
 # Extensions
 markdown_extensions:
