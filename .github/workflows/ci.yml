@@ -7,8 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
     if: github.event.pull_request.head.repo.fork == false
     steps:
       - uses: actions/checkout@v2
@@ -17,3 +15,5 @@ jobs:
           python-version: 3.x
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
