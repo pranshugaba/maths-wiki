@@ -1,23 +1,12 @@
-.md-typeset h1 {
-    margin-bottom: 0.5em;
+[data-md-color-primary=white]{
+    --md-footer-fg-color: #333;
+    --md-footer-fg-color--light: hsla(0,0%,0%,0.9);
+    --md-footer-fg-color--lighter: hsla(0,0%,0%,0.5);
+    
+    --md-footer-bg-color: hsla(0,0%,95%,1);
+    --md-footer-bg-color--dark: hsla(0,0%,88%,1);
 }
 
-.breadcrumbs ul{
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: -1em;
-    padding-bottom: 0.3em;
-    border-bottom: 1px solid #aaaaaa;
-}
-
-.breadcrumbs li{
-    display: inline-flex; 
-    list-style: none;
-    white-space: nowrap;
-    font-size: 1em;
-}
-
-
-.MathJax_Preview {
+.MathJax_Preview{
     display: none;
 }
