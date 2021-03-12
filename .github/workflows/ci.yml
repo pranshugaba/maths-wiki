@@ -13,9 +13,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: echo "${TEST_SECRET}"
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force
 env:
-  TEST_SECRET: ${{ secrets.TEST_SECRET }}
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
