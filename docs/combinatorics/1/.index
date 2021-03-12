@@ -1,4 +1,7 @@
+title: Chapter 1
+
 arrange:
+  - index.md
   - pigeonhole-principle.md
   - rule-of-sum.md
   - rule-of-product.md

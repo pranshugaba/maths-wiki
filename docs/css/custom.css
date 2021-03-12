@@ -3,10 +3,17 @@
     --md-footer-fg-color--light: hsla(0,0%,0%,0.9);
     --md-footer-fg-color--lighter: hsla(0,0%,0%,0.5);
     
-    --md-footer-bg-color: hsla(0,0%,95%,1);
-    --md-footer-bg-color--dark: hsla(0,0%,88%,1);
+    --md-footer-bg-color: hsla(0,0%,96%,1);
+    --md-footer-bg-color--dark: hsla(0,0%,90%,1);
 }
 
+.md-typeset .admonition, .md-typeset details {
+    font-size: .75rem;
+}
+
+.md-typeset h1 {
+    margin-bottom: 0.75em;
+}
 .MathJax_Preview{
     display: none;
 }
