@@ -5,3 +5,4 @@ It is helpful to read the wiki. Effort has been put in to make the content acces
 Try proving theorems on your own before reading the proofs. The proofs are collapsed by default for this reason. Hints are present in case of a difficult proof.
 
 Same for problems and solutions. Try to solve them on your own before reading the solutions. 
+<abbr title="This is title">Hidden text</abbr>

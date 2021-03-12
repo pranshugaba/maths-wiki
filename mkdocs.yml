@@ -10,10 +10,11 @@ site_description: >-
 # edit_uri: ""
 
 # Copyright
-copyright: '&copy; 2020 Maths Wiki <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
+copyright: '&copy; 2021 Maths Wiki <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>'
 
 # Configuration
 theme:
+  # name: material
   name: null
   custom_dir: mkdocs-material/material
 
@@ -31,14 +32,17 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   features:
-    - tabs
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    # - toc.integrate #left sidebar might become too long
     # - instant #this breaks math rendering
   palette:
     scheme: default
-    primary: indigo
+    primary: white
     accent: blue
   font:
-    text: Roboto
+    text: Source Sans Pro
     code: Roboto Mono
   icon:
     logo: material/pi
@@ -47,10 +51,12 @@ theme:
 # Plugins
 plugins:
   - search
-  # - minify:
-  #     minify_html: true
+  - minify:
+      minify_html: true
   - git-revision-date-localized:
       type: date
+  - macros
+      # include_dir: snippets
   - awesome-pages:
       filename: .index
       collapse_single_pages: false
@@ -78,12 +84,13 @@ extra:
 
 # Extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.attr_list
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
       # permalink: 🔗
       permalink: false
   - pymdownx.arithmatex
@@ -106,7 +113,7 @@ markdown_extensions:
       user: squidfunk
       repo: mkdocs-material
   - pymdownx.mark
-  # - pymdownx.smartsymbols
+  - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
   - pymdownx.tabbed
@@ -117,16 +124,16 @@ markdown_extensions:
 
 extra_javascript:
   # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
-  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.0/mermaid.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js 
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js 
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/render-a11y-string.min.js 
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/mathtex-script-type.min.js 
+  # - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.0/mermaid.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/katex.min.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/auto-render.min.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/render-a11y-string.min.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/mathtex-script-type.min.js 
 
 extra_css:
   - css/img.css
   - css/custom.css
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/katex.min.css 
   
 google_analytics:
   - 'UA-164642577-2'
