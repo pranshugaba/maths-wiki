@@ -35,12 +35,25 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
     # - toc.integrate #left sidebar might become too long
     # - instant #this breaks math rendering
   palette:
-    scheme: default
-    primary: white
-    accent: blue
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   font:
     text: Source Sans Pro
     code: Roboto Mono
@@ -61,7 +74,6 @@ plugins:
       filename: .index
       collapse_single_pages: false
       strict: true
-  # - markdownmermaid
   # - toc-sidebar
   # - tooltipster-links
   # - mk2pdf-export
@@ -105,7 +117,11 @@ markdown_extensions:
   - pymdownx.extra
   - pymdownx.highlight:
       linenums_style: pymdownx.inline
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
@@ -123,8 +139,6 @@ markdown_extensions:
 
 
 extra_javascript:
-  # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
-  # - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.0/mermaid.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/katex.min.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/auto-render.min.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/render-a11y-string.min.js 

@@ -3,15 +3,14 @@ This is mermaid:
 # Examples
 
 This is a mermaid flow chart
-<div class="mermaid">
-stateDiagram
-    [\*] --> Still
-    Still --> [\*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [\*]
- </div>
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
 
 
 
