@@ -14,9 +14,9 @@ copyright: '&copy; 2021 Maths Wiki <a rel="license" href="http://creativecommons
 
 # Configuration
 theme:
-  # name: material
-  name: null
-  custom_dir: mkdocs-material/material
+  name: material
+  # name: null
+  # custom_dir: mkdocs-material/material
 
   extra:
     manifest: manifest.webmanifest
