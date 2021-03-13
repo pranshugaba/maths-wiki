@@ -38,7 +38,8 @@ theme:
     - navigation.indexes
     - navigation.tracking
     - search.suggest
-    - searach.highlight
+    - search.highlight
+    # - header.autohide
     # - toc.integrate #left sidebar might become too long
     # - instant #this breaks math rendering
   palette:

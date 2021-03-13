@@ -3,7 +3,7 @@
 >Too many pigeons, not enough holes
 
 ## Statement
-The pigeonhole theorem[^1] is a simple yet powerful tool that is very useful throughout combinatorics.
+The *pigeonhole theorem*[^1] is a simple yet powerful tool that is very useful throughout combinatorics.
 
 [^1]: Often abbreviated to PHP.
 
