@@ -154,7 +154,7 @@ extra_css:
   - css/img.css
   - css/custom.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/katex.min.css 
-  
+
 google_analytics:
   - 'UA-164642577-2'
   - auto
