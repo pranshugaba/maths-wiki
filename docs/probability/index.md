@@ -1,5 +1,6 @@
 ---
-title: Probability Overview
+title: Overview
+disable_prev: true
 ---
 
 In this section, we plan to cover the following topics:

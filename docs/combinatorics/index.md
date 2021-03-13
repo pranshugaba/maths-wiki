@@ -1,4 +1,8 @@
-# Combinatorics Overview
+---
+disable_prev: true
+---
+
+# Overview
 
 Combinatorics is about how to count. It helps us answer questions like "How many ways to arrange books on a shelf?" and "How many ways to write 42 as a sum of three numbers?". 
 

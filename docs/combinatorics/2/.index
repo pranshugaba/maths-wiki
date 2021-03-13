@@ -1,1 +1,8 @@
 title: Chapter 2
+
+nav:
+  - index.md
+  - inclusion-exclusion.md
+  - binomial-theorem.md
+  - recurrences.md
+  - generating-functions.md

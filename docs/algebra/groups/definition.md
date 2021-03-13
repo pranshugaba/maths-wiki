@@ -1,4 +1,4 @@
-#Groups
+# Definition
 
 A _group_ \((G, *)\) consists of a set \(G\) and a binary operation \(*\) such that
 

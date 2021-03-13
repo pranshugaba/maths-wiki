@@ -1,5 +1,6 @@
 ---
-title: Algebra Overview
+title: Overview
+disable_prev: true
 ---
 
 Algebra

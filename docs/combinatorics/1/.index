@@ -1,7 +1,9 @@
 title: Chapter 1
 
-arrange:
+nav:
   - index.md
   - pigeonhole-principle.md
-  - rule-of-sum.md
-  - rule-of-product.md
+  - counting-techniques.md
+  - double-counting.md
+  - bijections.md
+
