@@ -6,13 +6,28 @@
     --md-footer-bg-color: hsla(0,0%,96%,1);
     --md-footer-bg-color--dark: hsla(0,0%,90%,1);
 }
-
 .md-typeset .admonition, .md-typeset details {
     font-size: .75rem;
 }
 
 .md-typeset h1 {
     margin-bottom: 0.75em;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--md-default-fg-color);
+}
+
+.md-typeset h2 {
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+.md-header__title {
+    font-size: 1.2rem;
+}
+.md-header[data-md-state=shadow] {
+    box-shadow: 0 0 0.2rem rgb(0 0 0 / 4%),
+                0 0.2rem 0.4rem rgb(0 0 0 / 8%);
 }
 .MathJax_Preview{
     display: none;
