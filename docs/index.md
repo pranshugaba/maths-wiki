@@ -1,14 +1,23 @@
 ---
 title: Home
-description: A fun and exciting resource to learn advanced maths!
+description: A fun and exciting resource to learn advanced maths and computer science!
 disable_next: true
 ---
-!!! caution "Work in progress"
-    This site is a work in progress, and is being actively worked on. As a result, there may be errors in the content. Please send feedback, suggestions, corrections  at <pranshu@maths.wiki>.
+<style>
+.md-content__button {
+    display: none;
+}
+.md-grid {
+    margin-top: 0;
+}
+</style>
 
-# Welcome to {{ config.site_name }}
+!!! info "Work in progress"
+    This project is a work in progress and is in very early stages of development. Pages might have errors, be incomplete or missing. Please send feedback, suggestions, corrections  at <pranshu@maths.wiki>. Contributions are welcome!
 
-This wiki is a resource to learn undergraduate level maths. It will include topics such as algebra, combinatorics, probability, and graph theory. 
+# Welcome to {{ config.site_name }}!
+
+This wiki aims to be a fun and exciting resource for learning advanced maths and computer science. Topics covered include, but are not limited to algebra, combinatorics, probability, and graph theory. 
 
 Click on one of the following topics to get started. 
 

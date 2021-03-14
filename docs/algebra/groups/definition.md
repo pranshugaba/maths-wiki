@@ -18,3 +18,6 @@ If the group operation is commutative, then we say the group is _abelian_.
 The _order of the group_ is the number of elements in the group. \(|G|\).
 
 The _order of an element_ \(g\) is the minimum integer \(n\) such that \(g^n = 1\). 
+
+
+<!-- --8<-- "includes/glossary.md" -->
