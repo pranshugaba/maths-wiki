@@ -79,6 +79,9 @@ plugins:
       filename: .index
       collapse_single_pages: false
       strict: true
+  - redirects:
+      redirect_maps:
+        'about/': 'about/maths-wiki.md'
   # - toc-sidebar
   # - tooltipster-links
   # - mk2pdf-export
@@ -111,7 +114,7 @@ markdown_extensions:
   - meta
   - toc:
       # permalink: 🔗
-      permalink: false
+      permalink: "#"
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -136,6 +139,7 @@ markdown_extensions:
       user: squidfunk
       repo: mkdocs-material
   - pymdownx.mark
+  - pymdownx.progressbar:
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
@@ -154,6 +158,7 @@ extra_javascript:
 extra_css:
   - css/img.css
   - css/custom.css
+  - css/progress.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/katex.min.css 
 
 google_analytics:

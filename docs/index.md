@@ -17,10 +17,12 @@ disable_next: true
 
 # Welcome to {{ config.site_name }}!
 
-This wiki aims to be a fun and exciting resource for learning advanced maths and computer science. Topics covered include, but are not limited to algebra, combinatorics, probability, and graph theory. 
+This wiki aims to be a fun and exciting resource for learning advanced maths and computer science. 
 
-Click on one of the following topics to get started. 
+Click on a topic to get started.
 
-- [Combinatorics](combinatorics/)
+- [Combinatorics](combinatorics/) 
 - [Probability](probability/)
 - [Algebra](algebra/)
+
+

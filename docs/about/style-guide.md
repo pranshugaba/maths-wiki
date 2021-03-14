@@ -1,4 +1,5 @@
 # Style Guide
 
-!!! caution "Work in progress"
+!!! note "Work in progress"
     To be added. 
+    
