@@ -21,8 +21,7 @@ This wiki aims to be a fun and exciting resource for learning advanced maths and
 
 Click on a topic to get started.
 
+
 - [Combinatorics](combinatorics/) 
 - [Probability](probability/)
 - [Algebra](algebra/)
-
-
