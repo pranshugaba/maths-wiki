@@ -1,5 +1,6 @@
 ---
 title: Probability Spaces
+next_page: home
 ---
 
 A probability space is a triple \((\Omega, \mathcal{F}, P)\). 

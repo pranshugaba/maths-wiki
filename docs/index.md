@@ -1,7 +1,7 @@
 ---
 title: Home
 description: A fun and exciting resource to learn advanced maths and computer science!
-disable_next: true
+next_page: false
 ---
 <style>
 .md-content__button {
