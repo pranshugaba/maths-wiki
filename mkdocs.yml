@@ -2,7 +2,7 @@ site_name: Maths Wiki
 site_url: https://maths.wiki
 site_author: Pranshu Gaba
 site_description: >-
-  A fun and exciting resource for learning advanced maths and computer science!
+  A fun and exciting resource for learning Maths and Computer Science!
 
 # Repository
 repo_name: pranshugaba/maths-wiki
@@ -159,6 +159,7 @@ extra_css:
   - css/img.css
   - css/custom.css
   - css/progress.css
+  - css/anim.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/katex.min.css 
 
 google_analytics:

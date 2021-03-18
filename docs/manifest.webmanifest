@@ -1,10 +1,10 @@
 {
   "name": "Maths Wiki",
   "short_name": "Maths Wiki",
-  "description": "A collection of maths notes.",
+  "description": "A fun and exciting resource for learning Maths and Computer Science.",
   "lang": "en-us",
-  "theme_color": "#4051b5",
-  "background_color": "#4051b5",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "icons": [{
     "src": "/images/icons-192.png",
     "sizes": "192x192",

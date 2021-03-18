@@ -1,6 +1,6 @@
 # How to Contribute
 
-Found an error? Have a suggestion? Would like to contribute? You can help improve this wiki! As a thank-you, your name will be added to the list of contributors. 
+Found an error? Have a suggestion? Would like to contribute? You can help improve this wiki! Your name will be added to the list of [contributors](/about/contributors) (unless you ask to be omitted).
 
 
 
