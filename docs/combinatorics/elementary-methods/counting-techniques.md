@@ -1,4 +1,4 @@
-# Counting Techniques
+# 1.2 Counting Techniques
 
 
 ## Rule of Sum

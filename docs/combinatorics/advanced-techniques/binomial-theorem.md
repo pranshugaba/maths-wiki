@@ -1,4 +1,4 @@
-# Binomial Theorem
+# 2.2 Binomial Theorem
 
 \((1 + x)^2 = 1 + 2x + x^2\). 
 

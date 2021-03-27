@@ -1,6 +1,8 @@
 title: Combinatorics
 
-arrange:
+nav:
   - index.md
-  - "1"
-  - "2"
+  - introduction.md
+  - elementary-methods
+  - advanced-techniques
+  - glossary.md
