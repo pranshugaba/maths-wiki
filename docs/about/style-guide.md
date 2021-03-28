@@ -1,6 +1,6 @@
 # Style Guide
 
-!!! warning "Work in progress"
+!!! example "Work in progress"
     This style guide is a work in progress.  
 
 To paraphrase Albert Einstein,
