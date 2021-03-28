@@ -1,5 +1,7 @@
 # Style Guide
 
-!!! note "Work in progress"
-    To be added. 
-    
+!!! warning "Work in progress"
+    This style guide is a work in progress.  
+
+To paraphrase Albert Einstein,
+> Make things as simple as possible, but not simpler.      

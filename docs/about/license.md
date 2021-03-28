@@ -1,3 +1,9 @@
+<style>
+.md-content__button {
+    display: none;
+}
+</style>
+
 # License
 
 # :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa:

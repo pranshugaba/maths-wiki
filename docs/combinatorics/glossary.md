@@ -3,5 +3,7 @@ next_page: home
 ---
 # Glossary 
 
+## B
 !!! question ""
-    bijection: A function that is one-to-one and onto.
+    **Bijection**    
+    A function that is one-to-one and onto.
