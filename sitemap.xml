@@ -1,107 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://maths.wiki/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/introduction/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/elementary-methods/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/elementary-methods/pigeonhole-principle/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://maths.wiki/combinatorics/elementary-methods/counting-techniques/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <loc>https://maths.wiki/combinatorics/elementary-methods/rules-of-sum-and-product/</loc>
+     <lastmod>2021-04-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://maths.wiki/combinatorics/elementary-methods/inclusion-exclusion/</loc>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/elementary-methods/double-counting/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/elementary-methods/bijections/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://maths.wiki/combinatorics/binomial-coefficients/</loc>
+     <lastmod>2021-04-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://maths.wiki/combinatorics/binomial-coefficients/binomial-theorem/</loc>
+     <lastmod>2021-04-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://maths.wiki/combinatorics/binomial-coefficients/permutations-combinations/</loc>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/advanced-techniques/</loc>
-     <lastmod>2021-03-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://maths.wiki/combinatorics/advanced-techniques/inclusion-exclusion/</loc>
-     <lastmod>2021-03-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://maths.wiki/combinatorics/advanced-techniques/binomial-theorem/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/advanced-techniques/recurrences/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/advanced-techniques/generating-functions/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://maths.wiki/combinatorics/advanced-techniques/young-tableau/</loc>
+     <lastmod>2021-04-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://maths.wiki/combinatorics/advanced-techniques/burnside-lemma/</loc>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/combinatorics/glossary/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/probability/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/probability/probability-spaces/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/algebra/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/algebra/groups/definition/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/algebra/groups/examples/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/algebra/rings/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/algebra/fields/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/about/maths-wiki/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/about/contributors/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/about/how-to-contribute/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://maths.wiki/about/style-guide/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://maths.wiki/about/license/</loc>
-     <lastmod>2021-03-28</lastmod>
+     <loc>https://maths.wiki/about/licence/</loc>
+     <lastmod>2021-04-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
