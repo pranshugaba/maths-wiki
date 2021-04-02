@@ -65,11 +65,18 @@ theme:
   icon:
     logo: material/pi
     admonition:
-      info: octicons/list-unordered-16
-      question: octicons/pencil-16
-      note: octicons/checklist-16
       warning: octicons/alert-16
-      example: octicons/beaker-16
+      abstract: octicons/filter-16
+      success: octicons/check-circle-16
+      failure: octicons/x-circle-16
+      info: octicons/note-16
+      note: octicons/checklist-16
+      question: octicons/question-16
+      tip: octicons/light-bulb-16
+      example: octicons/list-unordered-16
+      quote: octicons/quote-16
+      bug: octicons/beaker-16
+      danger: octicons/zap-16
     # favicon: images/favicon.ico
 
 # Plugins
@@ -118,6 +125,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  - smarty
   - toc:
       # permalink: 🔗
       permalink: "#"

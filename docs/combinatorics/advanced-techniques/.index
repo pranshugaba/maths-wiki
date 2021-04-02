@@ -1,8 +1,8 @@
-title: 2. Advanced Techniques
+title: Advanced Techniques
 
 nav:
   - index.md
-  - inclusion-exclusion.md
-  - binomial-theorem.md
   - recurrences.md
   - generating-functions.md
+  - young-tableau.md
+  - burnside-lemma.md

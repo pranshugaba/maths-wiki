@@ -1,1 +1,1 @@
-# 2.4 Generating Functions
+# Generating Functions

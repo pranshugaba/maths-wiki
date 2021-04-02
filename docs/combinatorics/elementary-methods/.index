@@ -1,9 +1,9 @@
-title: 1. Elementary Methods
+title: Elementary Methods
 
 nav:
   - index.md
   - pigeonhole-principle.md
-  - counting-techniques.md
+  - rules-of-sum-and-product.md
+  - inclusion-exclusion.md
   - double-counting.md
   - bijections.md
-

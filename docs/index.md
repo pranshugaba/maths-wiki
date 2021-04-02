@@ -12,7 +12,7 @@ next_page: false
 }
 </style>
 
-!!! example "Work in progress"
+!!! warning "Work in progress"
     This project is a work in progress and is in very early stages of development. 
     Pages might have errors, be incomplete or missing. 
     [Contributions are welcome!](about/how-to-contribute/)
