@@ -4,7 +4,12 @@ disable_prev: true
 
 # Overview
 
-Combinatorics is all about counting. It helps us answer questions such as "In how many different ways can you arrange 10 books on a shelf?" and "In how many ways can you write 42 as a sum of three positive numbers?". 
+## Structure of the book
+We begin with elementary counting methods such as rules of sum and product, the pigeonhole principle, and the principle of inclusion and exclusion. 
 
-Knowing how to count is useful while designing algorithms. It has applications in probability and statistics, as well as graph theory.
+We then move on to binomial coefficients and their properties. 
 
+Finally, we look at some advanced techniques such as recurrences, generating functions, and Burnside's lemma. 
+
+## Prerequisites
+There are no prerequisites for this book. Basic knowledge of [set theory](appendix/set-theory) is recommended. Exposure to group theory is helpful, but not necessary. 

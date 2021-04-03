@@ -1,6 +1,5 @@
-arrange:
+nav:
   - index.md
   - combinatorics
-  - probability
   - algebra
   - about

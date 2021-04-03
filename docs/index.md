@@ -25,5 +25,4 @@ Choose a topic to get started.
 
 
 - [Combinatorics](combinatorics/) 
-- [Probability](probability/)
 - [Algebra](algebra/)

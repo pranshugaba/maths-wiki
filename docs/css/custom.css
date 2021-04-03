@@ -41,7 +41,7 @@
 }
 
 .md-typeset h1 {
-    margin-bottom: 0.75em;
+    margin-bottom: 0.5em;
     font-size: 1.9rem;
     font-weight: 400;
     color: var(--md-default-fg-color);
@@ -50,7 +50,8 @@
 .md-typeset h2 {
     font-weight: 400;
     font-size: 1.5rem;
-    margin-top: 1.5em;
+    margin-top: 1.25em;
+    margin-bottom: 0em;
 }
 .md-typeset h3 {
     font-size: 1.1rem;
