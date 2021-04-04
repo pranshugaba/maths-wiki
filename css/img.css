@@ -1,26 +1,27 @@
-.center {
-    display: block;
-    max-width: 75%;
-    height: auto;
-    margin: auto;
-    float: none!important;
+[data-md-color-scheme=slate] .md-typeset figure {
+    opacity: 0.75;
 }
 
-.float-left{
+figure.fig-center {
+    max-width: 450px;
+    height: auto;
+    margin: 2.5em auto 1.5em;
+}
+
+
+figure.fig-left{
+    max-width: max(50%, 300px);
     float: left;
     padding: 1.5em 1.5em;
 }
 
-.float-right{
+figure.fig-right{
+    max-width: max(50%, 300px);
     float: right;
     padding: 1.5em 1.5em;
 }
 
-img + em {
-    font-style: italics;
-    display: inherit;
-    text-align: center;
-    font-size: 90%;
-    opacity: 80%;
-    padding: 10px;
+.md-typeset figcaption {
+    margin: 0.5em auto 0;
+    opacity: 90%;
 }
