@@ -41,7 +41,7 @@ The pigeonhole principle is essential for proving several advanced results in co
 The statement of the pigeonhole principle can be generalised to the following. 
 
 !!! info "Theorem"
-    If there are \(n\) bins and \(rn+1\) items, and each item is in some bin, then there exists a bin with at least \(r+1\) item.
+    If there are \(n\) bins and \(rn+1\) items, and each item is in some bin, then there exists a bin with at least \(r+1\) items.
 
 The proof for this goes along similar lines to the special case of \(r = 1\). 
 
