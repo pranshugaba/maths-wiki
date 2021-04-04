@@ -1,7 +1,14 @@
 # Pigeonhole Principle
 
 ## Introduction
-Suppose you have a drawer full of red socks, blue socks, and yellow socks, and you would like to wear a matching pair of socks. Any colour is fine, as long as you have two socks of the same colour. Unfortunately, the room is dark so you can't see the colours of the socks. You have no choice but to draw socks blindly. 
+Suppose you have a drawer full of red socks, blue socks, and yellow socks, and you would like to wear a matching pair of socks. Any colour is fine, as long as you have two socks of the same colour. 
+
+<figure class="fig-center">
+<img src="../socks-in-a-drawer.svg" onload="SVGInject(this)"/>
+<figcaption>A drawer full of socks</figcaption>
+</figure>
+
+Unfortunately, the room is dark so you can't see the colours of the socks. You have no choice but to draw socks blindly. 
 
 !!! question
     What is the minimum number of socks you must draw in order to guarantee a matching pair? 

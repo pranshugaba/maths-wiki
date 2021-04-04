@@ -168,9 +168,11 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/auto-render.min.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/render-a11y-string.min.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.0/contrib/mathtex-script-type.min.js 
+  - js/svg-inject.js
 
 extra_css:
   - css/img.css
+  - css/svg.css
   - css/custom.css
   - css/progress.css
   - css/anim.css
