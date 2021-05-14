@@ -1,5 +1,6 @@
 # Rules of Sum and Product
 
+These rules are best explained with the help of some examples. 
 
 ## Rule of Sum
 

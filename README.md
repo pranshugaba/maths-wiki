@@ -18,8 +18,7 @@ More topics will be added in the future as and when the content is written.
 - Number theory
 - Linear Algebra
 
-> This project is a work in progress and is in very early stages of development. Pages might have errors, be incomplete or missing.   
-> [Contributions are welcome!](https://maths.wiki/about/how-to-contribute/)
+> This project is a work in progress and is in very early stages of development. Pages might have errors, be incomplete or missing.  [Contributions are welcome!](https://maths.wiki/about/how-to-contribute/)
 
 ## Contributing
 All content is written in Markdown files and is human-readable using a text editor such as Vim or VSCode. 
@@ -51,9 +50,16 @@ Install these plugins with `pip` as well. These are required to build the websit
 mkdocs-minify-plugin mkdocs-awesome-pages-plugin mkdocs-macros-plugin mkdocs-git-revision-date-localized-plugin mkdocs-redirects
 ```
 
+Fork this repository on GitHub and clone it. 
+
+``` sh
+git clone https://github.com/{YOUR-USERNAME}/maths-wiki
+cd maths-wiki
+```
+
 ## Running the live preview
 
-To get a live preview, run:
+In the root of the cloned repository, run this to get a live preview running:
 ``` sh
 mkdocs serve
 ```
@@ -64,4 +70,4 @@ INFO - Browser Connected: http://127.0.0.1:8000/
 You should be able to access the website in your browser at that address. 
 The site will autoreload each time you edit a file, and you will be able to see your content rendered beautifully. 
 
-
+When you are done with your changes, create a pull request to submit your changes to this repository. 
